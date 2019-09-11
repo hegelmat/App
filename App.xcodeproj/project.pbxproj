@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4333912123213F2000ABB4BB /* PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333912023213F1F00ABB4BB /* PropertiesViewController.swift */; };
 		433E91ED23178F6C00DEFEEE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E91EC23178F6C00DEFEEE /* Profile.swift */; };
 		433EDBC3231B9195008ECB66 /* AddPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433EDBC2231B9195008ECB66 /* AddPropertyViewController.swift */; };
 		433EDBC5231B9237008ECB66 /* BrowsePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433EDBC4231B9237008ECB66 /* BrowsePropertiesViewController.swift */; };
@@ -498,7 +497,6 @@
 				433EDBC5231B9237008ECB66 /* BrowsePropertiesViewController.swift in Sources */,
 				43473DC622FFB5FB00EE6D59 /* AppDelegate.swift in Sources */,
 				433E91ED23178F6C00DEFEEE /* Profile.swift in Sources */,
-				4333912123213F2000ABB4BB /* PropertiesViewController.swift in Sources */,
 				43F858602302575500F332AC /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

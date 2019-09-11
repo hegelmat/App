@@ -848,7 +848,7 @@
         <!--PropertiesViewController-->
         <scene sceneID="MC0-9K-H5l">
             <objects>
-                <viewController storyboardIdentifier="PropertiesViewController" title="PropertiesViewController" id="4YG-kS-AdP" customClass="PropertiesViewController" customModule="App" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PropertiesViewController" title="PropertiesViewController" id="4YG-kS-AdP" customClass="PropertiesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SFN-cP-yUy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
