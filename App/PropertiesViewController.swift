@@ -23,7 +23,7 @@ class PropertiesViewController: UIViewController {
     var actionButton: ActionButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        getProperties()        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
         self.hideKeyboardWhenTappedAround()   //to remove the keyboard
         self.getMenu() //customized menu
           //get objects from the backend

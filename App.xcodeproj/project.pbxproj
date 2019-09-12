@@ -25,6 +25,7 @@
 		43C7E7DE231B3DAC0009B038 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7E7DD231B3DAC0009B038 /* Property.swift */; };
 		43C7E7E4231B3E390009B038 /* PropertyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7E7E3231B3E390009B038 /* PropertyDetails.swift */; };
 		43C7E7E6231B3EBD0009B038 /* PropertyPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C7E7E5231B3EBD0009B038 /* PropertyPictures.swift */; };
+		43DAA9272329304700CE2527 /* PropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAA9262329304700CE2527 /* PropertiesViewController.swift */; };
 		43F1BE832317431D00708A65 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1BE822317431D00708A65 /* UserProfileViewController.swift */; };
 		43F1BE85231745C700708A65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F1BE84231745C700708A65 /* User.swift */; };
 		43F5294F2302D8EA00A325A0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5294E2302D8EA00A325A0 /* RegisterViewController.swift */; };
@@ -58,7 +59,6 @@
 		32A898F41F35D87714EC2CB5 /* Pods-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppUITests/Pods-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3365D7E5471871CE1FD41FB3 /* Pods-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTests.release.xcconfig"; path = "Target Support Files/Pods-AppTests/Pods-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C039129613EA5EA81CC8566 /* Pods-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-AppUITests/Pods-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4333912023213F1F00ABB4BB /* PropertiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertiesViewController.swift; path = ../../../../.Trash/PropertiesViewController.swift; sourceTree = "<group>"; };
 		433E91EC23178F6C00DEFEEE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		433EDBC2231B9195008ECB66 /* AddPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertyViewController.swift; sourceTree = "<group>"; };
 		433EDBC4231B9237008ECB66 /* BrowsePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsePropertiesViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +83,7 @@
 		43C7E7DD231B3DAC0009B038 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		43C7E7E3231B3E390009B038 /* PropertyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetails.swift; sourceTree = "<group>"; };
 		43C7E7E5231B3EBD0009B038 /* PropertyPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPictures.swift; sourceTree = "<group>"; };
+		43DAA9262329304700CE2527 /* PropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesViewController.swift; sourceTree = "<group>"; };
 		43F1BE822317431D00708A65 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		43F1BE84231745C700708A65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		43F5294E2302D8EA00A325A0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -174,10 +175,10 @@
 				43473DC522FFB5FB00EE6D59 /* AppDelegate.swift */,
 				43F8585F2302575500F332AC /* LoggedInViewController.swift */,
 				43F5294E2302D8EA00A325A0 /* RegisterViewController.swift */,
-				4333912023213F1F00ABB4BB /* PropertiesViewController.swift */,
 				433EDBC2231B9195008ECB66 /* AddPropertyViewController.swift */,
 				43473DC722FFB5FB00EE6D59 /* ViewController.swift */,
 				43F1BE822317431D00708A65 /* UserProfileViewController.swift */,
+				43DAA9262329304700CE2527 /* PropertiesViewController.swift */,
 				433EDBC4231B9237008ECB66 /* BrowsePropertiesViewController.swift */,
 				43C59F642323795F00F42DA6 /* EOIFormViewController.swift */,
 				43F8585D2302462B00F332AC /* Extensions.swift */,
@@ -480,12 +481,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DAA9272329304700CE2527 /* PropertiesViewController.swift in Sources */,
 				43C7E7DE231B3DAC0009B038 /* Property.swift in Sources */,
 				43C7E7DC231B3D880009B038 /* Address.swift in Sources */,
 				43473DC822FFB5FB00EE6D59 /* ViewController.swift in Sources */,
 				43F1BE832317431D00708A65 /* UserProfileViewController.swift in Sources */,
 				43F5294F2302D8EA00A325A0 /* RegisterViewController.swift in Sources */,
-				433EDBC3231B9195008ECB66 /* AddPropertyViewController.swift in Sources */,
 				43C7E7E6231B3EBD0009B038 /* PropertyPictures.swift in Sources */,
 				439CECB9232099F300BA49F7 /* ActionButton.swift in Sources */,
 				43AD7C662324A5B400B9FD10 /* PropertiesCell.swift in Sources */,
@@ -494,6 +495,7 @@
 				43C59F652323795F00F42DA6 /* EOIFormViewController.swift in Sources */,
 				43C7E7E4231B3E390009B038 /* PropertyDetails.swift in Sources */,
 				439CECB72320994F00BA49F7 /* ActionButtonItem.swift in Sources */,
+				433EDBC3231B9195008ECB66 /* AddPropertyViewController.swift in Sources */,
 				433EDBC5231B9237008ECB66 /* BrowsePropertiesViewController.swift in Sources */,
 				43473DC622FFB5FB00EE6D59 /* AppDelegate.swift in Sources */,
 				433E91ED23178F6C00DEFEEE /* Profile.swift in Sources */,
